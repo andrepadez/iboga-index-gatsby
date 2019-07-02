@@ -1,9 +1,9 @@
 import React from 'react'
-import './css/master.css'
+import Layout from './components/Layout'
 
 export default () => (
-  <div className="site-container">
+  <Layout>
     <h2>Hello from Iboga-Index</h2>
     <p>coming soon...</p>
-  </div>
+  </Layout>
 )
