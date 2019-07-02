@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import './css/master.css'
 
 export default () => (
   <div className="site-container">
