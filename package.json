@@ -1,0 +1,28 @@
+{
+  "name": "iboga-index-gatsby",
+  "private": true,
+  "description": "IbogaIndex.com - static Gatsby site",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "dev": "cross-env GATSBY_GRAPHQL_IDE=playground gatsby develop",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+  },
+  "dependencies": {
+    "gatsby": "^2.3.16",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "prettier": "^1.17.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jlengstorf/frontendmasters-gatsby"
+  }
+}
