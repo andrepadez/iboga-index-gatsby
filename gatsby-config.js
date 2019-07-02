@@ -4,6 +4,7 @@ module.exports = {
     description: 'your place to find the best iboga provider'
   },
   plugins: [
+    'gatsby-plugin-sass',
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-source-datocms`,

@@ -2,7 +2,8 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import useSiteMetadata from './use-site-metadata'
-import './layout.css'
+import './globals.scss'
+import './layout.scss'
 
 const Layout = ({ children, page, className }) => {
   const { title, description } = useSiteMetadata()
@@ -15,7 +16,7 @@ const Layout = ({ children, page, className }) => {
         <meta charset="utf8" />
       </Helmet>
       <header>
-        <ul>
+        <ul className="flex">
           <li><Link to="/">Home</Link></li>
           <li><Link to="/blog">Blog</Link></li>
           <li><Link to="/contact">Contact</Link></li>
