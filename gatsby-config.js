@@ -15,6 +15,14 @@ module.exports = {
           it: ['en'],
         },
       },
+    },
+    {
+      resolve: 'gatsby-mdx',
+      options: {
+        defaultLayouts: {
+          default: require.resolve('./src/pages/components/Layout/index.js')
+        }
+      }
     }
   ]
 }

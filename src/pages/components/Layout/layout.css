@@ -1,5 +1,14 @@
-div.site-container {
+.site-container {
   width: 80%;
-  margin: 100px auto;
+  margin: 0 auto;
   text-align: center;
+}
+
+.site-container header ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.site-container header ul > * {
+  flex: 1;
 }
